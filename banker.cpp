@@ -6,7 +6,7 @@ int main(){
     if(!file.is_open()) return -1;
     
     int r = 5, c = 3; //rows and columns
-    int alloc[r][c], max[r][c], need[r][c], avail[c], availN[c], seq[r];
+    int alloc[r][c], max[r][c], need[r][c], availN[c], seq[r];
 
     //populate alloc, max, avail
     for(int i = 0; i < r; i++) for(int j = 0; j < c; j++) file >> alloc[i][j];
