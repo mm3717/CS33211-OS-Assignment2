@@ -44,7 +44,7 @@ int main(){
             }
             //std::cout << "P" << i << ": " << seq[i] << " " << doom << std::endl; //used for debugging
         }
-        std::cout << std::endl; //used for debugging
+        //std::cout << std::endl; //used for debugging
     }
 
     //report sequence or if unsafe
