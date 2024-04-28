@@ -1,5 +1,11 @@
-#include <iostream>
-#include <fstream>
+//CS33211 
+//Instructor: Dr. Qiang Guan
+//Author: Maxim Mamotlivi
+//Date: 4/25/2024
+
+#include <stdlib.h>   //standard lib
+#include <iostream>   //in-out stream
+#include <fstream>    //file stream
 
 int main(){
     std::ifstream file("tables.txt");
